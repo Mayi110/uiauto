@@ -4,14 +4,14 @@
 class DBServer(object):
     """数据库服务器配置"""
     # 注意：测试服务器用于 UI 自动化测试服务器
-    HOST = '120.26.4.163'
-    DOMAIN = 'dev.herely.us'
+    HOST = 'x.x.x.x'
+    DOMAIN = 'example.domain.com'
     # PG
     PG_PROTOCOL = 'postgresql://'
     PG_USERNAME = 'postgres'
-    PG_PASSWORD = '_postgres_'
+    PG_PASSWORD = 'example'
     ORIGINAL_DB_NAME = 'postgres'
-    HERELY_DB_NAME = 'herely_db'
+    HERELY_DB_NAME = 'example_db'
     DB_PORT = '5433'
     UIAUTO_DB_DSN = ''.join([PG_PROTOCOL, PG_USERNAME, ':', PG_PASSWORD, '@',
                              HOST, ':', DB_PORT, '/', HERELY_DB_NAME])
@@ -44,10 +44,7 @@ class Colors(object):
 
 class Email(object):
     """电子邮件配置"""
-    EMAIL_TIGER = 'tiger.huang@herely.us'
-    EMAIL_CARSON = 'carson.pan@herely.us'
-    EMAIL_SIMON = 'simon.cai@herely.us'
-    EMAIL_DOBBY = 'dobby.luo@herely.us'
+    EMAIL_TIGER = 'example@gmail.com'
 
 
 class PublicXpath(object):
