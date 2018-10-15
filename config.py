@@ -3,7 +3,7 @@
 
 class DBServer(object):
     """数据库服务器配置"""
-    # 注意：测试服务器用于 UI 自动化测试服务器
+    # 注意：测试服务器用于 UI 自动化测试服务器 (可忽略)
     HOST = 'x.x.x.x'
     DOMAIN = 'example.domain.com'
     # PG
